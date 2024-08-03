@@ -3,7 +3,7 @@ pipeline{
         label "jenkins-agent"
     }
     options {
-        timeout(time: 30 , unit : '30 MINUTES')
+        timeout(time: 30 , unit : 'MINUTES')
     }
     environment {
         NEXUS_URL = 'nexus.itindustry.online:8081'
